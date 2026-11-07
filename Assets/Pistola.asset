@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b84f7c0280ced543bb732fe8dbd3c2b, type: 3}
+  m_Name: Pistola
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponName: Pistola
+  weaponIcon: {fileID: 0}
+  bulletType: 0
+  damage: 10
+  fireRate: 0.2
+  range: 50
+  maxAmmoInClip: 30
+  maxAmmoReserve: 120
+  reloadTime: 1.5
+  bulletPrefab: {fileID: 2632099266379876075, guid: 019936ba1af7f4e4e8c5787f7ac30094, type: 3}
+  fireMode: 0
+  pelletsCount: 8
+  spreadAngle: 15
+  burstCount: 3
+  burstFireRate: 0.08
